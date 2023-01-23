@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.n {
+    padding: 5px;
+}
+
+.nav {
+    border: 2px solid rgb(144, 229, 253);
+    border-bottom: 0px solid white;
+    background-image: linear-gradient(
+        to top,
+        rgb(232, 235, 235),
+        rgb(245, 247, 247),
+        white
+    );
+    width: 15%;
+}
+
+img {
+    width: 70%;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+}
+
+.article {
+    padding: 10px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.art2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.article1 {
+    width: 100%;
+}
+
+.article1 p {
+    padding: 5px;
+}
+
+.article1 p {
+    padding: 10px;
+}
+.porsche {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+
+    border: 2px solid rgb(212, 212, 212);
+    margin-top: 90px;
+    background-color: rgb(243, 245, 245);
+    padding: 5px;
+    font-size: smaller;
+}
+
+.porsche h4 {
+    background-color: rgb(189, 190, 191);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.porsche p {
+    margin: 5px;
+}
+.porsche1 {
+    width: 100%;
+
+    margin: 0%;
+}
+
+.top1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+    padding-bottom: 0;
+}
+
+.top1 p {
+    padding-left: 2px;
+}
+
+i {
+    position: absolute;
+    right: 27px;
+    top: 41px;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    margin-bottom: 0%;
+    padding-bottom: 0;
+
+    /* justify-content: space-between; */
+    border-bottom: 2px solid rgb(212, 215, 215);
+}
+
+.top p {
+    padding-left: 2px;
+    padding-right: 3px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+span2 {
+    font-weight: bold;
+    color: rgb(38, 50, 207);
+}
+
+.log {
+    display: flex;
+    color: rgb(53, 150, 177);
+    gap: 10px;
+    padding-top: 5px;
+    margin-left: 73%;
+    font-size: smaller;
+    margin-bottom: 5px;
+    align-items: center;
+}
+input {
+    width: 310px;
+    height: 20px;
+    margin-left: 4px;
+    margin-bottom: 0;
+}
+
+.body {
+    display: flex;
+    gap: 10px;
+}
+
+.top2 {
+    display: flex;
+    margin-bottom: 0%;
+}
+
+span1 {
+    color: rgba(19, 121, 216, 0.921);
+}
+
+.manufacture {
+    display: flex;
+    margin-top: 0%;
+}
+.contents {
+    /* color: rgb(53, 150, 177); */
+    border: 2px solid rgb(211, 209, 209);
+    padding-left: 40px;
+    width: 30%;
+    background-color: rgb(244, 244, 244);
+    margin-left: 10px;
+}
+span3 {
+    color: rgb(47, 156, 186);
+}
+
+.contents h5 {
+    text-align: center;
+    margin: 20px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.top {
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.po {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.li {
+    background-image: linear-gradient(
+        to top,
+        rgb(239, 242, 242),
+        rgb(245, 247, 247),
+        white
+    );
+}
+
+.footer {
+    border: 2px solid rgb(144, 229, 253);
+    background-color: rgb(239, 240, 240);
+    height: 120px;
+    font-size: small;
+}
+
+.footer1,
+.footer2 {
+    margin-left: 180px;
+}
+
+.footer2 a {
+    margin-left: 0;
+    padding-left: 0;
+    width: 60%;
+}
+
+.footer1image {
+    position: absolute;
+    top: 930px;
+    width: 80px;
+    margin-left: 73%;
+}
+.footer2image {
+    position: absolute;
+    top: 930px;
+    width: 80px;
+    margin-left: 79%;
+}
